@@ -167,13 +167,18 @@ a{
     background-color: black;
     font-family: break;
 }
-  
+
+.marketplace img {
+    width: 2rem;
+}
+
+
 
 @media screen and (min-width: 320px) and (max-width:767px) {
     .logo-wavez {
         display: block;
     }
-
+    
     .navigation {
         width: 90vw;
         padding: 0;
@@ -184,7 +189,7 @@ a{
     .breakFont {
         display: none;
     }
-
+    
     .card-home {
         min-height: 0;
     }
@@ -192,10 +197,17 @@ a{
     .time span {
         padding: 10px;
     }
-
+    
     .text-gallery {
         font-size: 2rem;
         padding: 2rem;
     }
     
+    .marketplace img {
+        width: 1.5rem;
+    }
+
+    .copyright {
+        font-size: 1em;
+    }
 }
