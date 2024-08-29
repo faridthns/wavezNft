@@ -214,4 +214,8 @@ a{
     .copyright {
         font-size: 1em;
     }
+
+    .wavezNft {
+        display: none;
+    }
 }
