@@ -131,7 +131,7 @@ a{
 .gallery-pic {
     /* animation: infinite-scroll 5s linear infinite; */
     flex-shrink: 0;
-    width: 90vw;
+    /* width: 90vw; */
     margin: auto;
     overflow-x: scroll;
     scrollbar-color: transparent transparent;
