@@ -1,0 +1,201 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: marker;
+}
+
+@font-face {
+    font-family: break;
+    src: url('assets/font/Break.ttf');
+}
+
+@font-face {
+    font-family: marker;
+    src: url('assets/font/Marker-Bold.ttf');
+}
+
+body{
+    background-color: #c2c2c4;
+}
+
+.topbar {
+    top: 0;
+    position: fixed ;
+    background-color: #c2c2c4;
+    z-index: 10;
+}
+
+.logo-wavez {
+    display: none;
+}
+
+.navigation {
+    width:70vw;
+    font-size: 20px;
+}
+
+.discord{
+    background-color: rgb(223, 60, 60);
+}
+
+.twitter{
+    background-color: rgb(223, 60, 60);
+}
+
+a{
+    text-decoration: none;
+}
+
+.discord:hover{
+    background-color: red;
+}
+
+.twitter:hover{
+    background-color: red;
+}
+
+.home {
+    margin-top: 80px;
+}
+
+.home, .gallery {
+    background-image: url('assets/pictures/bg-wavez2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.breakFont {
+    font-family: break;
+    margin-left: 2rem;
+}
+
+.mint-time{
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-top: 1px solid black;
+}
+
+.time span {
+    padding: 25px;
+}
+
+.text-gallery {
+    font-size: 4rem;
+    padding: 4rem;
+}
+
+.pict-home{
+    width: 400px;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.pict-home:hover{
+    transform: rotateY(180deg);
+    background-position: center;
+    background-size: cover;
+}
+
+.pict-home img {
+    border-radius: 12px;
+    border: 5px black solid;
+}
+
+/* .card-home{
+    width: 400px;
+    min-height: 400px ;
+}
+
+.card-home p {
+    font-size: 1rem;
+}
+
+/* card */
+
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }
+  
+  :root {
+    --card-height: 65vh;
+    --card-width: calc(var(--card-height) / 1.5);
+  } 
+
+.gallery-menu {
+    text-align: center;
+}
+
+.gallery-pic {
+    /* animation: infinite-scroll 5s linear infinite; */
+    flex-shrink: 0;
+    width: 90vw;
+    margin: auto;
+    overflow-x: scroll;
+    scrollbar-color: transparent transparent;
+    gap: 1rem;
+}
+
+.gallery-pic::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-items {
+    width: 30vw;
+    /* clip-path: polygon(1rem 0, 100% 0, calc(100% - 1rem) 100%, 0 100%); */
+}
+
+.gallery-items img {
+    width: 20vw;
+    border-radius: 12px;
+}
+
+@keyframes infinite-scroll {
+    from {
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+
+}
+  
+  
+.footer {
+    background-color: black;
+    font-family: break;
+}
+  
+
+@media screen and (min-width: 320px) and (max-width:767px) {
+    .logo-wavez {
+        display: block;
+    }
+
+    .navigation {
+        width: 90vw;
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .breakFont {
+        display: none;
+    }
+
+    .card-home {
+        min-height: 0;
+    }
+
+    .time span {
+        padding: 10px;
+    }
+
+    .text-gallery {
+        font-size: 2rem;
+        padding: 2rem;
+    }
+    
+}
