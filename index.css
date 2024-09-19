@@ -80,6 +80,19 @@ a{
     padding: 25px;
 }
 
+.soon {
+    grid-gap: 10px;
+}
+
+.soon div {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 25px; */
+}
+
 .text-gallery {
     font-size: 4rem;
     padding: 4rem;
